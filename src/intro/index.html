@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Taschenrechner</h1>
+    </header>
+
+    <main>
+        <label for="count">Mit wievielen Zahlen soll gerechnet werden?</label>
+        <input id="count" type="number">
+        <button type="button" id="count-button">Erzeugen</button>
+
+        <select name="operator" id="operator">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+        </select>
+
+        <div id="values"></div>
+        <!-- Chrome verhindert die Eingabe von Buchstaben mit type="number"
+        <label for="value1">1. Zahl: </label>
+        <input id="value1" type="text" class="value">
+
+        <label for="value2">2. Zahl: </label>
+        <input id="value2" type="text" class="value">
+
+        <label for="value3">3. Zahl: </label>
+        <input id="value3" type="text" class="value">
+
+        <label for="value4">4. Zahl: </label>
+        <input id="value4" type="text" class="value"> -->
+
+        <button type="button" id="calculate-button">Berechnen</button>
+
+        <div id="result"></div>
+    </main>
+
+    <footer>
+        PWA: Intro
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

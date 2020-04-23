@@ -1,0 +1,21 @@
+#result {
+    border: 1px solid black;
+}
+
+select {
+    display: block;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+}
+
+input.value {
+    font-size: 2rem;
+    display: block;
+}
+
+h1 {
+    color: indigo;
+}
