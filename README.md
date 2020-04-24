@@ -2,7 +2,6 @@
 
 - Vortragender: Alexander Miller
 
-
 ## Allgemeines
 
 Die Prüfung findet am letzten Kursabend statt.
@@ -11,7 +10,7 @@ Die Prüfung findet am letzten Kursabend statt.
 
 Session | Thema | Folien | Übung
 --- | --- | --- | ---
-1 | Einleitung | [PDF](slides/intro.pdf) | folgt
+1 | Einleitung | [PDF](slides/intro.pdf) | [Taschenrechner](src/intro)
 
 ## Links
 
