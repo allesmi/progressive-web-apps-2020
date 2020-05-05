@@ -1,0 +1,64 @@
+#day-list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.monday {
+    grid-column: 1;
+}
+
+.tuesday {
+    grid-column: 2;
+}
+
+.wednesday {
+    grid-column: 3;
+}
+
+.thursday {
+    grid-column: 4;
+}
+
+.friday {
+    grid-column: 5;
+}
+
+.saturday {
+    grid-column: 6;
+}
+
+.sunday {
+    grid-column: 7;
+}
+
+html {
+    font-size: 24px;
+    ;
+}
+
+main {
+    background-color: lightsalmon;
+}
+
+#day-list {
+    background-color: lightblue;
+}
+
+#day-list a {
+    display: block;
+    padding: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    #day-list {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #day-list {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+}
