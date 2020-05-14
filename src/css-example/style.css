@@ -1,0 +1,71 @@
+h1 {
+  color: indigo;
+}
+
+h2 {
+  color: lightsalmon;
+}
+
+footer {
+  border-top: 1px solid black;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.content {
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.bunt {
+  color: forestgreen;
+  border: 1px solid fuchsia;
+  transition: color 100ms linear;
+  transition: border 100ms linear;
+}
+
+@media screen and (min-width: 780px) {
+  .content {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 200px 1fr;
+  }
+}
+
+@media print {
+  aside {
+    display: none;
+  }
+
+  h1,
+  h2 {
+    color: black;
+    background-color: white;
+  }
+
+  a:after {
+    content: "("attr(href)" )";
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+  }
+
+  h1,
+  h2,
+  a,
+  p {
+    color: white;
+  }
+}
+
+/* @media (prefers-reduced-motion: reduce) { ... } */
+/* Verwendung in JavaScript: https://web.dev/prefers-reduced-motion/ */
+@media (prefers-reduced-motion: reduce) {
+  .bunt {
+    color: indigo;
+    border: 0;
+  }
+}
