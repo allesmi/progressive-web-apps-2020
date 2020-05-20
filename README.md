@@ -17,6 +17,7 @@ Session | Thema | Folien | Übung
 5 | Web Manifest, Web Worker | [Manifest](slides/manifest.pdf) | [Manifest](src/manifest), [Worker](src/web-worker), [Worker2](src/web-worker2)
 6 | Service Worker | | [Service Worker](src/service-worker-full)
 7 | Camera, CSS Media Queries, IndexedDB | | [Camera](src/camera), [CSS](src/css-example), [IndexedDB](src/indexed-db)
+8 | Wiederholung | [PDF](slides/wiederholung.pdf) | 
 
 ## Links
 
